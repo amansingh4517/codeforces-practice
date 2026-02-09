@@ -9,4 +9,5 @@ This folder contains solutions to Codeforces problems with a rating of 800.
 | 1 | Cover in Water | [Problem Link](https://codeforces.com/problemset/problem/1900/A) | [CoverInWater.java](CoverInWater.java) |
 | 2 | Halloumi Boxes | [Problem Link](https://codeforces.com/problemset/problem/1903/A) | [HalloumiBoxes.java](HalloumiBoxes.java) |
 | 3 | Line Trip | [Problem Link](https://codeforces.com/problemset/problem/1901/A) | [LineTrip.java](LineTrip.java) |
+| 4 | Doremy's Paint 3 | [Problem Link](https://codeforces.com/problemset/problem/1890/A) | [Doremys_Paint3.java](Doremys_Paint3.java) |
 
