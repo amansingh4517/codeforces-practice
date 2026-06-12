@@ -1,50 +1,69 @@
-# Codeforces Practice Solutions
+# 🏆 Codeforces Practice Solutions
 
-A collection of my Codeforces problem solutions implemented in Java, organized by difficulty rating.
+A collection of Codeforces problem solutions implemented in Java, organized by difficulty rating and contest structures.
+
+---
 
 ## 📁 Repository Structure
 
-Solutions are organized into folders based on their Codeforces difficulty rating (e.g., 800, 900, 1000, 1100, etc.).
+Solutions are organized into folders depending on their Codeforces difficulty rating or category:
 
-Each folder contains:
-- Java solution files
-- A README.md with a table linking problems to their Codeforces pages and solution files
+*   📂 **[800](800/)** - Entry-level problems focusing on basic implementation, greedy algorithms, and simple math (26 problems).
+*   📂 **[900](900/)** - Problems involving basic constructive algorithms, sorting, and number theory (5 problems).
+*   📂 **[contest](contest/)** - Solutions written during various live contests or practice rounds (21 problems).
+
+Each rating/contest directory contains a dedicated `README.md` detailing the problem list, direct links to Codeforces, and links to the local solution files.
+
+---
 
 ## 📊 Progress Tracking
 
-| Rating | Problems Solved |
-|--------|----------------|
-| 800    | 3              |
-| 900    | 1              |
-| **Total** | **4**      |
+| Category / Rating | Solved Count | Status | Index Link |
+| :--- | :---: | :---: | :---: |
+| **800** | 26 | 🟢 Active | [Go to 800 Solutions](800/README.md) |
+| **900** | 5 | 🟢 Active | [Go to 900 Solutions](900/README.md) |
+| **Contests** | 21 | 🟡 In-Progress | [Go to Contest Solutions](contest/README.md) |
+| **Total Problems** | **52** | **🚀 Practicing** | — |
 
-## 🎯 Purpose
+---
 
-This repository serves as:
-- A personal archive of solved Codeforces problems
-- A reference for problem-solving approaches and algorithms
-- Practice material for competitive programming
+## 🎯 Repository Purpose
 
-## 📝 How to Navigate
+*   **Continuous Learning:** Tracking progress on the [CP-31 Sheet](https://www.tle-eliminators.com/cp-sheet).
+*   **Reference Archive:** Keeping clean, readable Java templates for common competitive programming paradigms.
+*   **Speed & Performance:** Practicing optimizations in Java input/output streams (e.g., using `BufferedReader` and `StringBuilders` to avoid TLE).
 
-1. Browse folders by difficulty rating
-2. Check each folder's README.md for a complete list of problems
-3. Each problem entry includes:
-   - Problem name
-   - Direct link to the Codeforces problem
-   - Link to the solution file
+---
 
-## 🚀 Running Solutions
+## 📝 Navigation & Usage
 
-All solutions are written in Java. To run a solution:
+1. Select a folder matching the target rating or category.
+2. Open its corresponding `README.md` to find the problem index.
+3. Each index entry links to:
+    *   The problem statement on Codeforces.
+    *   The corresponding `.java` solution file.
+
+---
+
+## 🚀 Running Solutions Locally
+
+All solutions are written in Java. To compile and run any of the solutions:
 
 ```bash
-javac <filename>.java
-java <classname>
+# Navigate to the subdirectory
+cd 800  # or 900, contest
+
+# Compile the solution
+javac <Filename>.java
+
+# Execute the class
+java <ClassName>
 ```
 
-##  Resources
+---
 
-- [TLE Eliminators CP Sheet](https://www.tle-eliminators.com/cp-sheet) - Problem practice sheet (primary resource)
-- [Codeforces](https://codeforces.com/) - Competitive programming platform
-- [Codeforces Problemset](https://codeforces.com/problemset) - Browse all problems
+## 🔗 Resources & Platforms
+
+*   [TLE Eliminators CP Sheet](https://www.tle-eliminators.com/cp-sheet) - Problem practice sheet (primary resource)
+*   [Codeforces Platform](https://codeforces.com/) - Main competitive programming website
+*   [Codeforces Problemset](https://codeforces.com/problemset) - Full problem search
